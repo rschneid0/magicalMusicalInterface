@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92BB6471B1D18CC00D3E4EA /* GUGS_Fluid_v1_44.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = A92BB6461B1D18CC00D3E4EA /* GUGS_Fluid_v1_44.sf2 */; };
+		A92BB64A1B1D1B5F00D3E4EA /* NoteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A92BB6491B1D1B5F00D3E4EA /* NoteButton.m */; };
+		A92BB64C1B1D254000D3E4EA /* StevesLesPaul-R5-1.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = A92BB64B1B1D254000D3E4EA /* StevesLesPaul-R5-1.sf2 */; };
+		A92BB64E1B1D268A00D3E4EA /* Chris_Finger_Basses.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = A92BB64D1B1D268A00D3E4EA /* Chris_Finger_Basses.sf2 */; };
+		A92BB6501B1D342200D3E4EA /* organ.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = A92BB64F1B1D342200D3E4EA /* organ.sf2 */; };
+		A9B135D91B1A60A60005D77E /* piano6.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B135D31B1A60A60005D77E /* piano6.wav */; };
+		A9B135DA1B1A60A60005D77E /* piano5.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B135D41B1A60A60005D77E /* piano5.wav */; };
+		A9B135DB1B1A60A60005D77E /* piano4.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B135D51B1A60A60005D77E /* piano4.wav */; };
+		A9B135DC1B1A60A60005D77E /* piano2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B135D61B1A60A60005D77E /* piano2.wav */; };
+		A9B135DD1B1A60A60005D77E /* pianoD.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B135D71B1A60A60005D77E /* pianoD.wav */; };
+		A9B135DE1B1A60A60005D77E /* piano1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B135D81B1A60A60005D77E /* piano1.wav */; };
+		A9B135E01B1A656F0005D77E /* piano3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B135DF1B1A656F0005D77E /* piano3.wav */; };
+		A9B135E21B1A668A0005D77E /* piano7.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B135E11B1A668A0005D77E /* piano7.wav */; };
+		A9B1665D1B1A529300B539A6 /* xylophone4.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B1665C1B1A529300B539A6 /* xylophone4.wav */; };
+		A9B4F30C1B1A1BE30015AF4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4F30B1B1A1BE30015AF4C /* main.m */; };
+		A9B4F30F1B1A1BE30015AF4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4F30E1B1A1BE30015AF4C /* AppDelegate.m */; };
+		A9B4F3121B1A1BE30015AF4C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4F3111B1A1BE30015AF4C /* FirstViewController.m */; };
+		A9B4F3151B1A1BE30015AF4C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4F3141B1A1BE30015AF4C /* SecondViewController.m */; };
+		A9B4F3181B1A1BE30015AF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B4F3161B1A1BE30015AF4C /* Main.storyboard */; };
+		A9B4F31A1B1A1BE30015AF4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B4F3191B1A1BE30015AF4C /* Images.xcassets */; };
+		A9B4F31D1B1A1BE30015AF4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9B4F31B1B1A1BE30015AF4C /* LaunchScreen.xib */; };
+		A9B4F3291B1A1BE30015AF4C /* Magical_Musical_InterfacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4F3281B1A1BE30015AF4C /* Magical_Musical_InterfacesTests.m */; };
+		A9B4F3361B1A1E340015AF4C /* flower3.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B4F3331B1A1E340015AF4C /* flower3.png */; };
+		A9B4F3371B1A1E340015AF4C /* flower2.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B4F3341B1A1E340015AF4C /* flower2.png */; };
+		A9B4F3381B1A1E340015AF4C /* flower1.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B4F3351B1A1E340015AF4C /* flower1.png */; };
+		A9B4F33B1B1A24570015AF4C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4F3391B1A241A0015AF4C /* AVFoundation.framework */; };
+		A9B4F33F1B1A26D60015AF4C /* xylophone3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B4F33C1B1A26D60015AF4C /* xylophone3.wav */; };
+		A9B4F3401B1A26D60015AF4C /* xylophone2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B4F33D1B1A26D60015AF4C /* xylophone2.wav */; };
+		A9B4F3411B1A26D60015AF4C /* xylophone1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9B4F33E1B1A26D60015AF4C /* xylophone1.wav */; };
+		A9B4F3441B1A3E1B0015AF4C /* XylophoneBluesView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4F3431B1A3E1B0015AF4C /* XylophoneBluesView.m */; };
+		A9D2FE941B1D14D800A2654C /* SCAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D2FE931B1D14D800A2654C /* SCAudioController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9B4F3231B1A1BE30015AF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B4F2FE1B1A1BE30015AF4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B4F3051B1A1BE30015AF4C;
+			remoteInfo = "Magical Musical Interfaces";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A92BB6461B1D18CC00D3E4EA /* GUGS_Fluid_v1_44.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = GUGS_Fluid_v1_44.sf2; path = "Magical Musical Interfaces/Assets/GUGS_Fluid_v1_44.sf2"; sourceTree = "<group>"; };
+		A92BB6481B1D1B5F00D3E4EA /* NoteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteButton.h; sourceTree = "<group>"; };
+		A92BB6491B1D1B5F00D3E4EA /* NoteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteButton.m; sourceTree = "<group>"; };
+		A92BB64B1B1D254000D3E4EA /* StevesLesPaul-R5-1.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "StevesLesPaul-R5-1.sf2"; path = "Magical Musical Interfaces/StevesLesPaul-R5-1.sf2"; sourceTree = "<group>"; };
+		A92BB64D1B1D268A00D3E4EA /* Chris_Finger_Basses.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chris_Finger_Basses.sf2; sourceTree = "<group>"; };
+		A92BB64F1B1D342200D3E4EA /* organ.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = organ.sf2; sourceTree = "<group>"; };
+		A9B135D31B1A60A60005D77E /* piano6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = piano6.wav; path = Assets/piano6.wav; sourceTree = "<group>"; };
+		A9B135D41B1A60A60005D77E /* piano5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = piano5.wav; path = Assets/piano5.wav; sourceTree = "<group>"; };
+		A9B135D51B1A60A60005D77E /* piano4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = piano4.wav; path = Assets/piano4.wav; sourceTree = "<group>"; };
+		A9B135D61B1A60A60005D77E /* piano2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = piano2.wav; path = Assets/piano2.wav; sourceTree = "<group>"; };
+		A9B135D71B1A60A60005D77E /* pianoD.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoD.wav; path = Assets/pianoD.wav; sourceTree = "<group>"; };
+		A9B135D81B1A60A60005D77E /* piano1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = piano1.wav; path = Assets/piano1.wav; sourceTree = "<group>"; };
+		A9B135DF1B1A656F0005D77E /* piano3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = piano3.wav; path = Assets/piano3.wav; sourceTree = "<group>"; };
+		A9B135E11B1A668A0005D77E /* piano7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = piano7.wav; path = Assets/piano7.wav; sourceTree = "<group>"; };
+		A9B1665C1B1A529300B539A6 /* xylophone4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = xylophone4.wav; path = Assets/xylophone4.wav; sourceTree = "<group>"; };
+		A9B4F3061B1A1BE30015AF4C /* Magical Musical Interfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magical Musical Interfaces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B4F30A1B1A1BE30015AF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B4F30B1B1A1BE30015AF4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9B4F30D1B1A1BE30015AF4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9B4F30E1B1A1BE30015AF4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9B4F3101B1A1BE30015AF4C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A9B4F3111B1A1BE30015AF4C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A9B4F3131B1A1BE30015AF4C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A9B4F3141B1A1BE30015AF4C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A9B4F3171B1A1BE30015AF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9B4F3191B1A1BE30015AF4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9B4F31C1B1A1BE30015AF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9B4F3221B1A1BE30015AF4C /* Magical Musical InterfacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magical Musical InterfacesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B4F3271B1A1BE30015AF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B4F3281B1A1BE30015AF4C /* Magical_Musical_InterfacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Magical_Musical_InterfacesTests.m; sourceTree = "<group>"; };
+		A9B4F3331B1A1E340015AF4C /* flower3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flower3.png; path = Assets/flower3.png; sourceTree = "<group>"; };
+		A9B4F3341B1A1E340015AF4C /* flower2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flower2.png; path = Assets/flower2.png; sourceTree = "<group>"; };
+		A9B4F3351B1A1E340015AF4C /* flower1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flower1.png; path = Assets/flower1.png; sourceTree = "<group>"; };
+		A9B4F3391B1A241A0015AF4C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A9B4F33C1B1A26D60015AF4C /* xylophone3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = xylophone3.wav; path = Assets/xylophone3.wav; sourceTree = "<group>"; };
+		A9B4F33D1B1A26D60015AF4C /* xylophone2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = xylophone2.wav; path = Assets/xylophone2.wav; sourceTree = "<group>"; };
+		A9B4F33E1B1A26D60015AF4C /* xylophone1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = xylophone1.wav; path = Assets/xylophone1.wav; sourceTree = "<group>"; };
+		A9B4F3421B1A3E1B0015AF4C /* XylophoneBluesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XylophoneBluesView.h; sourceTree = "<group>"; };
+		A9B4F3431B1A3E1B0015AF4C /* XylophoneBluesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XylophoneBluesView.m; sourceTree = "<group>"; };
+		A9D2FE921B1D14D800A2654C /* SCAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAudioController.h; sourceTree = "<group>"; };
+		A9D2FE931B1D14D800A2654C /* SCAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAudioController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B4F3031B1A1BE30015AF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B4F33B1B1A24570015AF4C /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B4F31F1B1A1BE30015AF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9B4F2FD1B1A1BE30015AF4C = {
+			isa = PBXGroup;
+			children = (
+				A92BB6461B1D18CC00D3E4EA /* GUGS_Fluid_v1_44.sf2 */,
+				A92BB64B1B1D254000D3E4EA /* StevesLesPaul-R5-1.sf2 */,
+				A92BB64D1B1D268A00D3E4EA /* Chris_Finger_Basses.sf2 */,
+				A9B4F3081B1A1BE30015AF4C /* Magical Musical Interfaces */,
+				A9B4F3251B1A1BE30015AF4C /* Magical Musical InterfacesTests */,
+				A9B4F3071B1A1BE30015AF4C /* Products */,
+				A9B4F3391B1A241A0015AF4C /* AVFoundation.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B4F3071B1A1BE30015AF4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4F3061B1A1BE30015AF4C /* Magical Musical Interfaces.app */,
+				A9B4F3221B1A1BE30015AF4C /* Magical Musical InterfacesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B4F3081B1A1BE30015AF4C /* Magical Musical Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4F3321B1A1E1E0015AF4C /* Assets */,
+				A9B4F30D1B1A1BE30015AF4C /* AppDelegate.h */,
+				A9B4F30E1B1A1BE30015AF4C /* AppDelegate.m */,
+				A9B4F3101B1A1BE30015AF4C /* FirstViewController.h */,
+				A9B4F3111B1A1BE30015AF4C /* FirstViewController.m */,
+				A92BB6481B1D1B5F00D3E4EA /* NoteButton.h */,
+				A92BB6491B1D1B5F00D3E4EA /* NoteButton.m */,
+				A9B4F3421B1A3E1B0015AF4C /* XylophoneBluesView.h */,
+				A9B4F3431B1A3E1B0015AF4C /* XylophoneBluesView.m */,
+				A9B4F3131B1A1BE30015AF4C /* SecondViewController.h */,
+				A9B4F3141B1A1BE30015AF4C /* SecondViewController.m */,
+				A9D2FE921B1D14D800A2654C /* SCAudioController.h */,
+				A9D2FE931B1D14D800A2654C /* SCAudioController.m */,
+				A92BB64F1B1D342200D3E4EA /* organ.sf2 */,
+				A9B4F3161B1A1BE30015AF4C /* Main.storyboard */,
+				A9B4F3191B1A1BE30015AF4C /* Images.xcassets */,
+				A9B4F31B1B1A1BE30015AF4C /* LaunchScreen.xib */,
+				A9B4F3091B1A1BE30015AF4C /* Supporting Files */,
+			);
+			path = "Magical Musical Interfaces";
+			sourceTree = "<group>";
+		};
+		A9B4F3091B1A1BE30015AF4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4F30A1B1A1BE30015AF4C /* Info.plist */,
+				A9B4F30B1B1A1BE30015AF4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9B4F3251B1A1BE30015AF4C /* Magical Musical InterfacesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4F3281B1A1BE30015AF4C /* Magical_Musical_InterfacesTests.m */,
+				A9B4F3261B1A1BE30015AF4C /* Supporting Files */,
+			);
+			path = "Magical Musical InterfacesTests";
+			sourceTree = "<group>";
+		};
+		A9B4F3261B1A1BE30015AF4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4F3271B1A1BE30015AF4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9B4F3321B1A1E1E0015AF4C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A9B1665C1B1A529300B539A6 /* xylophone4.wav */,
+				A9B4F33C1B1A26D60015AF4C /* xylophone3.wav */,
+				A9B4F33D1B1A26D60015AF4C /* xylophone2.wav */,
+				A9B4F33E1B1A26D60015AF4C /* xylophone1.wav */,
+				A9B4F3331B1A1E340015AF4C /* flower3.png */,
+				A9B4F3341B1A1E340015AF4C /* flower2.png */,
+				A9B4F3351B1A1E340015AF4C /* flower1.png */,
+				A9B135D31B1A60A60005D77E /* piano6.wav */,
+				A9B135D41B1A60A60005D77E /* piano5.wav */,
+				A9B135D51B1A60A60005D77E /* piano4.wav */,
+				A9B135DF1B1A656F0005D77E /* piano3.wav */,
+				A9B135D61B1A60A60005D77E /* piano2.wav */,
+				A9B135E11B1A668A0005D77E /* piano7.wav */,
+				A9B135D71B1A60A60005D77E /* pianoD.wav */,
+				A9B135D81B1A60A60005D77E /* piano1.wav */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B4F3051B1A1BE30015AF4C /* Magical Musical Interfaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B4F32C1B1A1BE30015AF4C /* Build configuration list for PBXNativeTarget "Magical Musical Interfaces" */;
+			buildPhases = (
+				A9B4F3021B1A1BE30015AF4C /* Sources */,
+				A9B4F3031B1A1BE30015AF4C /* Frameworks */,
+				A9B4F3041B1A1BE30015AF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magical Musical Interfaces";
+			productName = "Magical Musical Interfaces";
+			productReference = A9B4F3061B1A1BE30015AF4C /* Magical Musical Interfaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9B4F3211B1A1BE30015AF4C /* Magical Musical InterfacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B4F32F1B1A1BE30015AF4C /* Build configuration list for PBXNativeTarget "Magical Musical InterfacesTests" */;
+			buildPhases = (
+				A9B4F31E1B1A1BE30015AF4C /* Sources */,
+				A9B4F31F1B1A1BE30015AF4C /* Frameworks */,
+				A9B4F3201B1A1BE30015AF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B4F3241B1A1BE30015AF4C /* PBXTargetDependency */,
+			);
+			name = "Magical Musical InterfacesTests";
+			productName = "Magical Musical InterfacesTests";
+			productReference = A9B4F3221B1A1BE30015AF4C /* Magical Musical InterfacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B4F2FE1B1A1BE30015AF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = pindro;
+				TargetAttributes = {
+					A9B4F3051B1A1BE30015AF4C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A9B4F3211B1A1BE30015AF4C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A9B4F3051B1A1BE30015AF4C;
+					};
+				};
+			};
+			buildConfigurationList = A9B4F3011B1A1BE30015AF4C /* Build configuration list for PBXProject "Magical Musical Interfaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9B4F2FD1B1A1BE30015AF4C;
+			productRefGroup = A9B4F3071B1A1BE30015AF4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B4F3051B1A1BE30015AF4C /* Magical Musical Interfaces */,
+				A9B4F3211B1A1BE30015AF4C /* Magical Musical InterfacesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9B4F3041B1A1BE30015AF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92BB64E1B1D268A00D3E4EA /* Chris_Finger_Basses.sf2 in Resources */,
+				A9B135DD1B1A60A60005D77E /* pianoD.wav in Resources */,
+				A9B1665D1B1A529300B539A6 /* xylophone4.wav in Resources */,
+				A9B4F3401B1A26D60015AF4C /* xylophone2.wav in Resources */,
+				A9B135E01B1A656F0005D77E /* piano3.wav in Resources */,
+				A9B135E21B1A668A0005D77E /* piano7.wav in Resources */,
+				A9B135DC1B1A60A60005D77E /* piano2.wav in Resources */,
+				A9B135DB1B1A60A60005D77E /* piano4.wav in Resources */,
+				A9B4F33F1B1A26D60015AF4C /* xylophone3.wav in Resources */,
+				A9B4F3381B1A1E340015AF4C /* flower1.png in Resources */,
+				A92BB64C1B1D254000D3E4EA /* StevesLesPaul-R5-1.sf2 in Resources */,
+				A9B4F3411B1A26D60015AF4C /* xylophone1.wav in Resources */,
+				A9B4F3371B1A1E340015AF4C /* flower2.png in Resources */,
+				A9B135DA1B1A60A60005D77E /* piano5.wav in Resources */,
+				A9B4F3361B1A1E340015AF4C /* flower3.png in Resources */,
+				A9B4F3181B1A1BE30015AF4C /* Main.storyboard in Resources */,
+				A9B135D91B1A60A60005D77E /* piano6.wav in Resources */,
+				A92BB6501B1D342200D3E4EA /* organ.sf2 in Resources */,
+				A9B4F31D1B1A1BE30015AF4C /* LaunchScreen.xib in Resources */,
+				A9B135DE1B1A60A60005D77E /* piano1.wav in Resources */,
+				A92BB6471B1D18CC00D3E4EA /* GUGS_Fluid_v1_44.sf2 in Resources */,
+				A9B4F31A1B1A1BE30015AF4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B4F3201B1A1BE30015AF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B4F3021B1A1BE30015AF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D2FE941B1D14D800A2654C /* SCAudioController.m in Sources */,
+				A9B4F3151B1A1BE30015AF4C /* SecondViewController.m in Sources */,
+				A92BB64A1B1D1B5F00D3E4EA /* NoteButton.m in Sources */,
+				A9B4F30F1B1A1BE30015AF4C /* AppDelegate.m in Sources */,
+				A9B4F3121B1A1BE30015AF4C /* FirstViewController.m in Sources */,
+				A9B4F3441B1A3E1B0015AF4C /* XylophoneBluesView.m in Sources */,
+				A9B4F30C1B1A1BE30015AF4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B4F31E1B1A1BE30015AF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B4F3291B1A1BE30015AF4C /* Magical_Musical_InterfacesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9B4F3241B1A1BE30015AF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B4F3051B1A1BE30015AF4C /* Magical Musical Interfaces */;
+			targetProxy = A9B4F3231B1A1BE30015AF4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9B4F3161B1A1BE30015AF4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B4F3171B1A1BE30015AF4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9B4F31B1B1A1BE30015AF4C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B4F31C1B1A1BE30015AF4C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9B4F32A1B1A1BE30015AF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9B4F32B1B1A1BE30015AF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9B4F32D1B1A1BE30015AF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Magical Musical Interfaces/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9B4F32E1B1A1BE30015AF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Magical Musical Interfaces/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9B4F3301B1A1BE30015AF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Magical Musical InterfacesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magical Musical Interfaces.app/Magical Musical Interfaces";
+			};
+			name = Debug;
+		};
+		A9B4F3311B1A1BE30015AF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Magical Musical InterfacesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magical Musical Interfaces.app/Magical Musical Interfaces";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9B4F3011B1A1BE30015AF4C /* Build configuration list for PBXProject "Magical Musical Interfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B4F32A1B1A1BE30015AF4C /* Debug */,
+				A9B4F32B1B1A1BE30015AF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B4F32C1B1A1BE30015AF4C /* Build configuration list for PBXNativeTarget "Magical Musical Interfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B4F32D1B1A1BE30015AF4C /* Debug */,
+				A9B4F32E1B1A1BE30015AF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B4F32F1B1A1BE30015AF4C /* Build configuration list for PBXNativeTarget "Magical Musical InterfacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B4F3301B1A1BE30015AF4C /* Debug */,
+				A9B4F3311B1A1BE30015AF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9B4F2FE1B1A1BE30015AF4C /* Project object */;
+}
